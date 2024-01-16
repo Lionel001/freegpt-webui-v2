@@ -1,97 +1,125 @@
 # FreeGPT WebUI v2
+
+fork from git@github.com:VadimBoev/freegpt-webui-v2.git
+
 <img src="https://github.com/VadimBoev/freegpt-webui-v2/blob/main/webui-gpt.png" width="1000" />
 
 ## GPT 3.5/4
 
-<strong>NOT REQUIRE ANY API KEY</strong> ❌🔑 
+<strong>NOT REQUIRE ANY API KEY</strong> ❌🔑
 
 This project features a WebUI utilizing the [G4F API](https://github.com/xtekky/gpt4free). <br>
-Experience the power of ChatGPT with a user-friendly interface, enhanced jailbreaks, and completely free.  
+Experience the power of ChatGPT with a user-friendly interface, enhanced jailbreaks, and completely free.
 
 **Important!** Don't be afraid to ask a question or write about any problem in the "issue".  
-We will solve a question or a problem together! 🌍  
+We will solve a question or a problem together! 🌍
 
 You can [buy me coffee](https://boosty.to/vadimboev/donate) here ☕🤎
 
 ## Known bugs 🚧
+
 - Web Access is not working.  
-Because the API that was used earlier in the "freegpt-webui" repository from ramonvc stopped working. This will be fixed later
+  Because the API that was used earlier in the "freegpt-webui" repository from ramonvc stopped working. This will be fixed later
 
 ## Features v2 📢
+
 - Updated g4f
 - Fixes to make everything work
 
 ## Project Hosting and Demonstration 🌐🚀
+
 The project is hosted on multiple platforms to be tested and modified.
 |Platform|Status|API Key|Free|Repo|Demo|
 |--|--|--|--|--|--|
 |[My site](http://vadimboev.ru:1338/)|![Active](https://img.shields.io/badge/Active-brightgreen)|◼️|☑️|[FreeGPT WebUI](https://github.com/VadimBoev/freegpt-webui-v2)|[Chat](http://vadimboev.ru:1338/)
 
-## Table of Contents  
-- [To-Do List](#to-do-list-%EF%B8%8F)  
-- [Getting Started](#getting-started-white_check_mark)  
-  - [Cloning the Repository](#cloning-the-repository-inbox_tray)  
-  - [Install Dependencies](#install-dependencies-wrench)  
-- [Running the Application](#running-the-application-rocket)
-- [Incorporated Projects](#incorporated-projects-busts_in_silhouette)
-  - [WebUI](#webui) 
-  - [API FreeGPT](#api-g4f)
-- [Star History](#star-history)
-- [Legal Notice](#legal-notice) 
+## Table of Contents
 
-## Getting Started :white_check_mark:  
+- [FreeGPT WebUI v2](#freegpt-webui-v2)
+  - [GPT 3.5/4](#gpt-354)
+  - [Known bugs 🚧](#known-bugs-)
+  - [Features v2 📢](#features-v2-)
+  - [Project Hosting and Demonstration 🌐🚀](#project-hosting-and-demonstration-)
+  - [Table of Contents](#table-of-contents)
+  - [Getting Started :white\_check\_mark:](#getting-started-white_check_mark)
+    - [Cloning the Repository :inbox\_tray:](#cloning-the-repository-inbox_tray)
+    - [Install Dependencies :wrench:](#install-dependencies-wrench)
+  - [Running the Application :rocket:](#running-the-application-rocket)
+  - [Incorporated Projects :busts\_in\_silhouette:](#incorporated-projects-busts_in_silhouette)
+    - [WebUI](#webui)
+    - [API G4F](#api-g4f)
+  - [Star History](#star-history)
+  - [Legal Notice](#legal-notice)
+
+## Getting Started :white_check_mark:
+
 To get started with this project, you'll need to clone the repository and have [Python](https://www.python.org/downloads/) installed on your system.  
 (Version 3.10+ is recommended. It also works for me on 3.9.2 in debian 11).
-  
+
 ### Cloning the Repository :inbox_tray:
-Run the following command to clone the repository:  
+
+Run the following command to clone the repository:
 
 ```
 git clone https://github.com/VadimBoev/freegpt-webui-v2.git
 ```
 
-### Install Dependencies :wrench: 
+### Install Dependencies :wrench:
+
 Navigate to the project directory:
+
 ```
 cd freegpt-webui-v2
 ```
 
 Install the dependencies:
+
 ```
 pip install -r requirements.txt
 ```
+
 ## Running the Application :rocket:
+
 To run the application, run the following command:
+
 ```
 python run.py
 ```
 
 Access the application in your browser using the URL:
+
 ```
 http://127.0.0.1:1338
 ```
+
 or
+
 ```
 http://localhost:1338
 ```
 
 ## Incorporated Projects :busts_in_silhouette:
+
 I highly recommend visiting and supporting both projects.
 
 ### WebUI
+
 The application interface was incorporated from the [chatgpt-clone](https://github.com/xtekky/chatgpt-clone) repository.
 
 ### API G4F
+
 The free GPT-4 API was incorporated from the [GPT4Free](https://github.com/xtekky/gpt4free) repository.
 
 <br>
 
 ## Star History
+
 [![Star History Chart](https://api.star-history.com/svg?repos=VadimBoev/freegpt-webui-v2&type=Timeline)](https://star-history.com/#VadimBoev/freegpt-webui-v2&Timeline)
 
 <br>
 
 ## Legal Notice
+
 This repository is _not_ associated with or endorsed by providers of the APIs contained in this GitHub repository. This
 project is intended **for educational purposes only**. This is just a little personal project. Sites may contact me to
 improve their security or request the removal of their site from this repository.
